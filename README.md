@@ -13,10 +13,11 @@ UnityでHTTP/2に必要なので上記を導入
   * pluginが必要なので入れる
 * Grpc.Net.Client
 * System.IO.Pipelines
+* System.Runtime.CompilerServices.Unsafe
 
 ### YetAnotherHttpHandlerの導入
 * UPMにてgitURLで追加から追加
-https://github.com/Cysharp/YetAnotherHttpHandler.git?path=src/YetAnotherHttpHandler#1.11.3
+https://github.com/Cysharp/YetAnotherHttpHandler.git?path=src/YetAnotherHttpHandler#1.11.4
 
 
 ## protobufでスクリプト生成
