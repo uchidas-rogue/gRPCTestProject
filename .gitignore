@@ -464,3 +464,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # End of https://www.toptal.com/developers/gitignore/api/unity,csharp
+
+# 追加
+!/Packages/packages-lock.json
+!/Packages/manifest.json
