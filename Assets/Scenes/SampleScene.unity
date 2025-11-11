@@ -1009,7 +1009,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1297970429}
         m_TargetAssemblyTypeName: SendRequest, Assembly-CSharp
-        m_MethodName: OnSendRequestButtonClicked
+        m_MethodName: OnGetOrderButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
