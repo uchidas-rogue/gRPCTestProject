@@ -202,7 +202,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1297970429}
+      - m_Target: {fileID: 1297970431}
         m_TargetAssemblyTypeName: SendRequest, Assembly-CSharp
         m_MethodName: OnSendRequestButtonClicked
         m_Mode: 1
@@ -889,7 +889,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1297970430}
-  - component: {fileID: 1297970429}
+  - component: {fileID: 1297970431}
   m_Layer: 0
   m_Name: SendRequest
   m_TagString: Untagged
@@ -897,18 +897,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1297970429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297970428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e68d93e9991a84e208ca0e22ecfe4cf9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SendRequest
 --- !u!4 &1297970430
 Transform:
   m_ObjectHideFlags: 0
@@ -924,6 +912,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1297970431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297970428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e68d93e9991a84e208ca0e22ecfe4cf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SendRequest
 --- !u!1 &1365864664
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,7 +1007,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1297970429}
+      - m_Target: {fileID: 1297970431}
         m_TargetAssemblyTypeName: SendRequest, Assembly-CSharp
         m_MethodName: OnGetOrderButtonClicked
         m_Mode: 1
